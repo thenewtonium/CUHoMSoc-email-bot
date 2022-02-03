@@ -1,0 +1,20 @@
+{
+  "name": "email-bot-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^13.2.0",
+    "forever": "^4.0.1",
+    "imap": "^0.8.19",
+    "node-events": "0.0.2",
+    "turndown": "^7.1.1"
+  }
+}
