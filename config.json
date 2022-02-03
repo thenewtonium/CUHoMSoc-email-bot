@@ -1,0 +1,17 @@
+{
+	"webhookUrls":[/*webhook URLs go here*/],
+	"listAddr": "maths-history-lectures@lists.cam.ac.uk", //email address to forward emails from (i.e. mailing list address. This is to stop e.g. default email provider emails being posted)
+	// email account login data
+	"email":{
+		"user":"",
+		"password":"",
+		"host": "",
+  		"port": 993,
+  		"tls": true,
+  		"tlsOptions": {
+  			// if you don't do this the script throws a tls error and I cba to figure out why
+  			// requires "allow less secure login" [or whatever it was called idr] to be enabled on gmail
+  			"rejectUnauthorized": false
+  		}
+	}
+}
